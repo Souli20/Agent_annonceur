@@ -47,4 +47,4 @@ WHATSAPP_TO = os.getenv("WHATSAPP_TO", "")  # format: whatsapp:+22606449610
 # --- Sources actives ------------------------------------------------------------
 # Chaque source a une fonction fetch() dans sources/<nom>.py qui renvoie une
 # liste de dicts uniformes: {titre, entreprise, lieu, lien, date, source, description}
-ACTIVE_SOURCES = ["remoteok", "remotive"]
+ACTIVE_SOURCES = ["remoteok", "remotive", "arbeitnow", "jobicy"]
