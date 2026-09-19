@@ -1,0 +1,6 @@
+.env
+offres_vues.db
+__pycache__/
+*.pyc
+.venv/
+venv/
