@@ -1,17 +1,4 @@
-"""
-MODÈLE — copie ce fichier vers sources/<nom_du_site>.py pour ajouter une
-nouvelle source (ex: Emploi.cm, Jobartis, un portail BAD/PNUD...).
 
-Chaque source doit exposer une fonction fetch() qui renvoie une liste de
-dicts avec les mêmes clés que les autres sources :
-{titre, entreprise, lieu, lien, date, source, description}
-
-Étapes :
-1. Renomme ce fichier (ex: sources/emploi_cm.py)
-2. Adapte l'URL et le parsing ci-dessous à la structure réelle du site
-3. Ajoute le nom du module dans config.ACTIVE_SOURCES (ex: "emploi_cm")
-4. Respecte le robots.txt du site et ne fais pas trop de requêtes rapprochées
-"""
 
 import requests
 from bs4 import BeautifulSoup
