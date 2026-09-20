@@ -1,8 +1,4 @@
-"""
-Source : Remotive (https://remotive.com)
-API JSON publique et gratuite. On peut filtrer par catégorie côté API
-(ex: "data") pour réduire le bruit avant même le filtrage par mots-clés.
-"""
+
 
 import requests
 
