@@ -1,8 +1,4 @@
-"""
-Source : RemoteOK (https://remoteok.com)
-API JSON publique et gratuite, pas de clé nécessaire.
-Bonne couverture des postes data/tech en remote.
-"""
+
 
 import requests
 
