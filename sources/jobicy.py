@@ -1,9 +1,3 @@
-"""
-Source : Jobicy (https://jobicy.com)
-API JSON publique et gratuite, pas de clé nécessaire. On filtre côté API
-sur l'industrie "engineering" pour réduire le bruit avant le filtrage
-par mots-clés.
-"""
 
 import requests
 
