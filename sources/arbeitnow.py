@@ -1,8 +1,4 @@
-"""
-Source : Arbeitnow (https://arbeitnow.com)
-API JSON publique et gratuite, pas de clé nécessaire. Bonne couverture
-tech/data en Europe et remote.
-"""
+
 
 import requests
 
